@@ -1,0 +1,19 @@
+name: Frist Workflow
+
+on:
+  push:
+    branches:
+      -master
+
+jobs:
+  example-job:
+    runs-on: windows-latest
+
+    steps:
+      - name: print a welcome message
+        run: echo "Welcome to our frist GitHub Actions Workflow !"
+      
+    
+    
+
+    
