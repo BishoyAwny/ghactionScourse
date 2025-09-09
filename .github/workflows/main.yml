@@ -3,7 +3,7 @@ name: Frist Workflow
 on:
   push:
     branches:
-      -master
+      -main
 
 jobs:
   example-job:
